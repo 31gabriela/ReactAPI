@@ -18,7 +18,7 @@ function PokemonList() {
       });
 
     // Realizar la solicitud GET a la API para el segundo Pokémon
-    axios.get(`${baseUrl}/pokemon/charizard`)
+    axios.get(`${baseUrl}/pokemon/charmeleon`)
       .then((response) => {
         setPokemonData2(response.data);
       })
